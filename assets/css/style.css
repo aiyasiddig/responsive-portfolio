@@ -1,39 +1,10 @@
 
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    .head {
-        height: 100%;
-        width: 100%;
-    }
-    .navbar-style {
-        box-shadow: 0 5px 10px #efefef;
-        width: 100%;
-        margin-bottom: 10px;
- 
-    } 
-    ul {
-        width: 450px;
-        height: 55px;
-        font-family: 'Montserrat Alternates', sans-serif;
-        float: right;
-        margin-right: -40%;
-        margin-top: 10px;
-        margin-bottom: -10px;
+    body {
+        background-image: url("https://i.pinimg.com/originals/a1/af/e3/a1afe3d0e72d48986573b7ec9595f583.jpg");
+        background-repeat: no-repeat;
         
     }
-    li {
-        list-style: none;
-        margin: 25px;
-        display: inline;
-        }
-    .menu {
-        margin-top: 10px;
-        width: 300px;
-        margin-left: 22.5%;
-        margin-bottom: -10px;
-    }
+
     a {
         color: rgb(59, 59, 59);
     }
@@ -45,33 +16,95 @@
         padding-left: 20px;
     
     }       
-    .text {
-        margin-top: 40px;
-        margin-left: 40px;
-        font-family: 'Montserrat Alternates', sans-serif;
+    .container {
+        margin: auto;
+        margin-top: 100px;
         font-size: 18px;
         border-color: darkgrey;
         box-shadow: 0 5px 10px #bbbbbb;
         width:500px;
-        padding: 25px;
+        max-width: 90%;
+        padding: 20px;
         align-content: center;
+        background-color: white;
         } 
     p {
         margin-bottom: 0px;
     }
-    body {
-        
-        background-size: 100%;
-        background-repeat: no-repeat;
+    #navbar {
+        position: fixed;
     }
     #profilepic {
         float: left;
         height: 175px;
         padding-right: 25px;
-        padding-bottom: 10px;
-        border-radius: 100%;
+        padding-bottom: 7.5px;
         border-color: rgb(143, 118, 122);
         border-width: thin;
     }
+    .nav-link, .nav-item  {
+        font-size: 18px;
+        margin-right: 10px;
 
+    }
+    
+    h1 {
+        color: rgb(236, 236, 236);
 
+    }
+    .footer{
+       background-color:darkcyan;
+       color: cornsilk;
+       width: max-content;
+       text-align:center;
+       position: fixed;
+       margin: auto;
+       bottom: 0;
+       min-width: fit-content; 
+       padding: 4px 0px;
+              
+    }
+
+    i {
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 10px;
+        height: 10px;
+        
+
+    }
+    .contact {
+        margin-top: 90px;
+    }
+
+    .card-body {
+        padding: 5px;
+    }
+    .container {
+        padding: 5px 20px;
+    }
+    h3 {
+        padding-top: 10px;
+    }
+    .card-body {
+        padding: 0px;
+    }
+    .text-center {
+        padding: 10px;
+    }
+    .portfolio {
+        margin-top: 85px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .aboutme {
+        padding-bottom: 20px;
+    }
+    .portfoliotitle {
+        margin-bottom: 0px;
+        font-size: 28px;
+        padding-top: 15px;
+    }
+    .mb-3:hover {
+        cursor: pointer;
+    }
