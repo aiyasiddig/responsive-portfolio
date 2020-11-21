@@ -1,8 +1,7 @@
 
     body {
-        background-image: url("https://i.pinimg.com/originals/a1/af/e3/a1afe3d0e72d48986573b7ec9595f583.jpg");
-        background-repeat: no-repeat;
-        
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(33,28,61,1) 0%, rgba(236,206,225,1) 50%, rgba(241,188,73,1) 100%);
     }
 
     a {
@@ -22,12 +21,18 @@
         font-size: 18px;
         border-color: darkgrey;
         box-shadow: 0 5px 10px #bbbbbb;
-        width:500px;
-        max-width: 90%;
         padding: 20px;
         align-content: center;
         background-color: white;
         } 
+    .aboutme, .contact {
+        width:500px;
+        max-width: 90%;
+    }
+    .portfolio {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
     p {
         margin-bottom: 0px;
     }
@@ -36,9 +41,9 @@
     }
     #profilepic {
         float: left;
-        height: 175px;
-        padding-right: 25px;
-        padding-bottom: 7.5px;
+        height: 155px;
+        padding-right: 17px;
+        padding-bottom: 0px;
         border-color: rgb(143, 118, 122);
         border-width: thin;
     }
@@ -107,4 +112,10 @@
     }
     .mb-3:hover {
         cursor: pointer;
+    }
+    .ttwo {
+        padding: 0px 15px;
+    }
+    .aboutmee {
+        font-size: 16px;
     }
